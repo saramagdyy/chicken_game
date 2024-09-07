@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./images/Space.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.chicken{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+  
+}
+.chicken img{
+    height: 60px;
+}
+
+.rock{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Rocket{
+    height: 100px;
+    z-index: 2;
+}
+.bulet{
+    position: absolute;
+    height: 30px;
+}
